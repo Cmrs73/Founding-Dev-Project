@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing | Founding Dev</title>
+    <meta name="description" content="One price for your whole team, not per seat. Start free, then upgrade to Unlock ($19/month), Unleash ($59/month) or Business when you're ready to replace the tools you rent.">
+    <meta name="theme-color" content="#050507">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Founding Dev">
+    <meta property="og:title" content="Pricing: one price for your whole team">
+    <meta property="og:description" content="Start free. Upgrade when you're ready to put your apps online. No per-seat fees.">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style .css">
+    <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page-glow" aria-hidden="true"></div>
+
+    <header class="site-header" id="top">
+        <div class="header-inner">
+            <a class="logo" href="index.html" aria-label="Founding Dev home">
+                <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="logo-g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c9a6ff"/><stop offset="1" stop-color="#6600c5"/></linearGradient></defs><rect width="32" height="32" rx="9" fill="url(#logo-g)"/><path d="M10 8.5h12.5V12H14v3.2h7.5v3.5H14v4.8h-4z" fill="#fff"/></svg>
+                <span class="logo-text">Founding<b>Dev</b></span>
+            </a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+            <nav id="site-nav" aria-label="Main">
+                <a href="index.html#how">How it works</a>
+                <a href="index.html#apps">Apps</a>
+                <a href="case-studies.html">Case studies</a>
+                <a href="saas-alternatives.html">Alternatives</a>
+                <a href="pricing.html" aria-current="page">Pricing</a>
+                <a href="index.html#faq">FAQ</a>
+                <div class="nav-actions">
+                    <a class="nav-login" href="account.html" data-auth="login">Log in</a>
+                    <a class="btn btn-primary" href="account.html?mode=signup" data-auth="primary">Start replacing</a>
+                </div>
+            </nav>
+            <div class="header-actions">
+                <a class="header-login" href="account.html" data-auth="login">Log in</a>
+                <a class="btn btn-small btn-primary" href="account.html?mode=signup" data-auth="primary">Start replacing</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="page-intro page-intro-center">
+            <p class="eyebrow">Pricing</p>
+            <h1>One price for your whole team. Not per seat.</h1>
+            <p class="description">Start free. Upgrade when you're ready to put your apps online and replace the tools you rent.</p>
+        </section>
+
+        <section class="section" id="plans" aria-label="Plans">
+            <div class="plan-grid">
+                <article class="panel plan">
+                    <h3>Free</h3>
+                    <p class="plan-blurb">Try it on real work before you pay.</p>
+                    <p class="plan-price">$0</p>
+                    <p class="pay-hint">Free account, credit for 30 days</p>
+                    <ul class="check-list">
+                        <li>Building credit for 30 days</li>
+                        <li>3 active apps</li>
+                        <li>Build landing pages and full stack apps</li>
+                        <li>Publish landing pages</li>
+                    </ul>
+                    <a href="account.html?mode=signup" class="btn btn-ghost plan-cta">Start free</a>
+                </article>
+                <article class="panel plan">
+                    <h3>Unlock</h3>
+                    <p class="plan-blurb">Replace your first tool and put it online.</p>
+                    <div class="plan-pay" data-pay-plan="unlock">
+                        <p class="plan-price">$19<span>/month</span></p>
+                        <button class="pay-toggle" type="button">Ways to pay</button>
+                        <div class="pay-menu"><div class="pay-menu-inner"></div></div>
+                    </div>
+                    <ul class="check-list">
+                        <li>Building credit every month</li>
+                        <li>One bill for your whole team</li>
+                        <li>6 active apps</li>
+                        <li>1 replacement template</li>
+                        <li>Use your own domain</li>
+                        <li>Publish apps and landing pages</li>
+                        <li>Remove the Founding Dev badge</li>
+                        <li>Download your code</li>
+                        <li>Unused credit rolls over</li>
+                    </ul>
+                    <button class="btn btn-ghost plan-cta" type="button" data-open-pay>Get Unlock</button>
+                </article>
+                <article class="panel plan plan-featured">
+                    <h3>Unleash <span class="plan-tag">Popular</span></h3>
+                    <p class="plan-blurb">Run more of your business on software you own.</p>
+                    <div class="plan-pay" data-pay-plan="unleash">
+                        <p class="plan-price">$59<span>/month</span></p>
+                        <button class="pay-toggle" type="button">Ways to pay</button>
+                        <div class="pay-menu"><div class="pay-menu-inner"></div></div>
+                    </div>
+                    <ul class="check-list">
+                        <li>Everything in Unlock, plus:</li>
+                        <li>3x the building credit</li>
+                        <li>18 active apps</li>
+                        <li>3 replacement templates</li>
+                    </ul>
+                    <button class="btn btn-primary plan-cta" type="button" data-open-pay>Get Unleash</button>
+                </article>
+                <article class="panel plan">
+                    <h3>Business</h3>
+                    <p class="plan-blurb">We build it with you.</p>
+                    <div class="plan-pay" data-pay-plan="business">
+                        <p class="plan-price">Custom</p>
+                        <button class="pay-toggle" type="button">Ways to pay</button>
+                        <div class="pay-menu"><div class="pay-menu-inner"></div></div>
+                    </div>
+                    <ul class="check-list">
+                        <li>Real engineers build with you</li>
+                        <li>Priority support</li>
+                        <li>Always-on dedicated hosting</li>
+                        <li>Complex apps built for your workflow</li>
+                        <li>No limit on apps</li>
+                        <li>Built to meet your compliance needs</li>
+                    </ul>
+                    <a href="contact.html?plan=business" class="btn btn-ghost plan-cta">Book a call</a>
+                </article>
+            </div>
+            <p class="section-note">Prices are billed monthly. Pay by M-Pesa, card or Airtel Money instantly, or by PayPal, crypto or bank transfer on request.</p>
+        </section>
+
+        <section class="section" id="publishing">
+            <div class="section-head reveal">
+                <p class="eyebrow">Publishing</p>
+                <h2>Put your apps online.</h2>
+                <p class="section-sub">Pay only for the apps you publish. Business includes always-on hosting.</p>
+            </div>
+            <div class="addon-grid reveal">
+                <article class="addon">
+                    <h3>Landing pages</h3>
+                    <p class="plan-price">Free</p>
+                    <p>Publish as many landing pages as you like, on any plan.</p>
+                </article>
+                <article class="addon">
+                    <h3>Full stack app, sleeps when idle</h3>
+                    <p class="plan-price">$9<span>/month</span></p>
+                    <p>Per app. It wakes up when someone uses it. Good for internal tools.</p>
+                </article>
+                <article class="addon">
+                    <h3>Full stack app, always on</h3>
+                    <p class="plan-price">$18<span>/month</span></p>
+                    <p>Per app. Always ready, with no wake-up delay. Good for customer-facing apps.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="pricing-faq">
+            <div class="faq-layout">
+                <div class="section-head reveal">
+                    <p class="eyebrow">Pricing FAQ</p>
+                    <h2>Questions about pricing.</h2>
+                    <p class="section-sub">Need a custom quote? <a class="text-link" href="contact.html">Book a call.</a></p>
+                </div>
+                <div class="faq-list reveal">
+                    <details>
+                        <summary>Is there a free plan?</summary>
+                        <p>Yes. A free account gives you 30 days of building credit and up to 3 active apps, so you can try it on real work before you pay.</p>
+                    </details>
+                    <details>
+                        <summary>How do I pick a paid plan?</summary>
+                        <p>Sign up free, then choose Unlock or Unleash. You can upgrade or switch plans at any time.</p>
+                    </details>
+                    <details>
+                        <summary>What is building credit?</summary>
+                        <p>It's what the AI uses while it builds and changes your apps. Paid plans add credit every month, and unused credit rolls over. You can top up any time.</p>
+                    </details>
+                    <details>
+                        <summary>What does it cost to publish an app?</summary>
+                        <p>Landing pages publish free. Each published full stack app is $9 per month if it can sleep when no one is using it, or $18 per month to stay always on. Business includes always-on hosting.</p>
+                    </details>
+                    <details>
+                        <summary>Do you charge per seat?</summary>
+                        <p>No. Plans bill the team, not the seat. Add as many people as you need.</p>
+                    </details>
+                    <details>
+                        <summary>Do I own what I build?</summary>
+                        <p>Yes. On a paid plan you can download your code at any time and put your apps on your own domain.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta">
+            <h2>Software that's actually yours.</h2>
+            <p>Start free today. No card needed.</p>
+            <div class="buttons buttons-center">
+                <a href="account.html?mode=signup" class="btn btn-primary">Start replacing <span aria-hidden="true">&rarr;</span></a>
+                <a href="contact.html" class="btn btn-ghost">Book a call</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <a class="logo" href="index.html" aria-label="Founding Dev home">
+                    <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="logo-g-foot" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c9a6ff"/><stop offset="1" stop-color="#6600c5"/></linearGradient></defs><rect width="32" height="32" rx="9" fill="url(#logo-g-foot)"/><path d="M10 8.5h12.5V12H14v3.2h7.5v3.5H14v4.8h-4z" fill="#fff"/></svg>
+                    <span class="logo-text">Founding<b>Dev</b></span>
+                </a>
+                <p>Replace rented SaaS with software you own. Built with enterprise standards and clear ownership.</p>
+            </div>
+            <div class="footer-col">
+                <h2>Product</h2>
+                <ul>
+                    <li><a href="index.html#how">How it works</a></li>
+                    <li><a href="index.html#apps">Apps</a></li>
+                    <li><a href="saas-alternatives.html">SaaS alternatives</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="index.html#security">Security</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h2>Customers</h2>
+                <ul>
+                    <li><a href="case-studies.html">Case studies</a></li>
+                    <li><a href="case-studies.html#florida-public-adjuster">Florida Public Adjuster</a></li>
+                    <li><a href="case-studies.html#shuk-rentals">Shuk Rentals</a></li>
+                    <li><a href="case-studies.html#innovations-ed">Innovations ED</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h2>Company</h2>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Book a call</a></li>
+                    <li><a href="index.html#faq">FAQ</a></li>
+                    <li><a href="account.html">Log in</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2026 Founding Dev. Built for owners.</span>
+            <a href="#top">Back to top &uarr;</a>
+        </div>
+    </footer>
+
+    <dialog class="panel pay-dialog" id="mpesa-dialog" aria-labelledby="mpesa-title">
+        <form id="mpesa-form" novalidate>
+            <h2 id="mpesa-title">Pay with M-Pesa</h2>
+            <div id="mpesa-fields">
+                <p class="muted panel-text">We'll send a prompt to your phone. Enter your M-Pesa PIN there to finish.</p>
+                <label class="field">
+                    <span>Safaricom number</span>
+                    <input type="tel" name="phone" autocomplete="tel" inputmode="tel" placeholder="0712 345 678" required>
+                </label>
+            </div>
+            <p class="muted panel-text" id="mpesa-login" hidden>Please <a class="text-link" href="account.html?return=pricing">log in or create an account</a> to pay.</p>
+            <p class="form-status" id="mpesa-status" role="status" hidden></p>
+            <div class="form-actions">
+                <button class="btn btn-primary" type="submit" id="mpesa-submit">Send prompt</button>
+                <button class="btn btn-ghost" type="button" id="mpesa-close">Close</button>
+            </div>
+        </form>
+    </dialog>
+
+    <dialog class="panel pay-dialog" id="paystack-dialog" aria-labelledby="paystack-title">
+        <form id="paystack-form" novalidate>
+            <h2 id="paystack-title">Pay with Paystack</h2>
+            <p class="muted panel-text" id="paystack-intro">You'll finish on Paystack's secure checkout. We never see your card details.</p>
+            <p class="muted panel-text" id="paystack-login" hidden>Please <a class="text-link" href="account.html?return=pricing">log in or create an account</a> to pay.</p>
+            <p class="form-status" id="paystack-status" role="status" hidden></p>
+            <div class="form-actions">
+                <button class="btn btn-primary" type="submit" id="paystack-submit">Continue to payment</button>
+                <button class="btn btn-ghost" type="button" id="paystack-close">Close</button>
+            </div>
+        </form>
+    </dialog>
+
+    <script src="js/site.js"></script>
+    <script type="module" src="js/auth-nav.js"></script>
+    <script type="module" src="js/payments.js"></script>
+</body>
+</html>

@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account | Founding Dev</title>
+    <meta name="description" content="Sign up or log in to your Founding Dev account.">
+    <meta name="robots" content="noindex">
+    <meta name="theme-color" content="#050507">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style .css">
+    <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page-glow" aria-hidden="true"></div>
+
+    <header class="site-header" id="top">
+        <div class="header-inner">
+            <a class="logo" href="index.html" aria-label="Founding Dev home">
+                <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="logo-g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c9a6ff"/><stop offset="1" stop-color="#6600c5"/></linearGradient></defs><rect width="32" height="32" rx="9" fill="url(#logo-g)"/><path d="M10 8.5h12.5V12H14v3.2h7.5v3.5H14v4.8h-4z" fill="#fff"/></svg>
+                <span class="logo-text">Founding<b>Dev</b></span>
+            </a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+            <nav id="site-nav" aria-label="Main">
+                <a href="index.html#how">How it works</a>
+                <a href="index.html#apps">Apps</a>
+                <a href="case-studies.html">Case studies</a>
+                <a href="saas-alternatives.html">Alternatives</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="index.html#faq">FAQ</a>
+                <div class="nav-actions">
+                    <a class="nav-login" href="account.html" data-auth="login">Log in</a>
+                    <a class="btn btn-primary" href="account.html?mode=signup" data-auth="primary">Start replacing</a>
+                </div>
+            </nav>
+            <div class="header-actions">
+                <a class="header-login" href="account.html" data-auth="login">Log in</a>
+                <a class="btn btn-small btn-primary" href="account.html?mode=signup" data-auth="primary">Start replacing</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="page-intro page-intro-center">
+            <p class="eyebrow">Account</p>
+            <h1 id="page-heading">Log in</h1>
+        </section>
+
+        <div class="panel panel-narrow" id="auth-panel">
+            <p class="notice" id="config-notice" hidden>Accounts are not connected yet. Add your Firebase project settings to js/firebase-config.js.</p>
+            <form id="auth-form" novalidate>
+                <label class="field">
+                    <span>Email</span>
+                    <input type="email" name="email" autocomplete="email" required>
+                </label>
+                <label class="field" id="password-field">
+                    <span>Password</span>
+                    <input type="password" name="password" autocomplete="current-password" minlength="8">
+                </label>
+                <div class="form-actions">
+                    <button class="btn btn-primary" id="auth-submit" type="submit">Log in</button>
+                </div>
+                <p class="form-status" id="auth-status" role="status" hidden></p>
+            </form>
+            <div class="auth-links">
+                <button class="link-button" type="button" data-mode="signup">Create an account</button>
+                <button class="link-button" type="button" data-mode="login" hidden>Back to log in</button>
+                <button class="link-button" type="button" data-mode="reset">Forgot password?</button>
+            </div>
+        </div>
+
+        <div class="panel panel-narrow" id="dashboard" hidden>
+            <h2>You're in</h2>
+            <p class="muted">Signed in as <span id="user-email"></span></p>
+            <p class="muted panel-text">Next, tell us which subscription you want to replace, or what you want to build.</p>
+            <div class="form-actions">
+                <a class="btn btn-primary" href="contact.html">Book a call</a>
+                <a class="btn btn-ghost" href="index.html#apps">See the apps</a>
+            </div>
+            <div class="form-actions">
+                <button class="link-button" id="sign-out" type="button">Log out</button>
+            </div>
+        </div>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <a class="logo" href="index.html" aria-label="Founding Dev home">
+                    <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="logo-g-foot" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c9a6ff"/><stop offset="1" stop-color="#6600c5"/></linearGradient></defs><rect width="32" height="32" rx="9" fill="url(#logo-g-foot)"/><path d="M10 8.5h12.5V12H14v3.2h7.5v3.5H14v4.8h-4z" fill="#fff"/></svg>
+                    <span class="logo-text">Founding<b>Dev</b></span>
+                </a>
+                <p>Replace rented SaaS with software you own. Built with enterprise standards and clear ownership.</p>
+            </div>
+            <div class="footer-col">
+                <h2>Product</h2>
+                <ul>
+                    <li><a href="index.html#how">How it works</a></li>
+                    <li><a href="index.html#apps">Apps</a></li>
+                    <li><a href="saas-alternatives.html">SaaS alternatives</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="index.html#security">Security</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h2>Customers</h2>
+                <ul>
+                    <li><a href="case-studies.html">Case studies</a></li>
+                    <li><a href="case-studies.html#florida-public-adjuster">Florida Public Adjuster</a></li>
+                    <li><a href="case-studies.html#shuk-rentals">Shuk Rentals</a></li>
+                    <li><a href="case-studies.html#innovations-ed">Innovations ED</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h2>Company</h2>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Book a call</a></li>
+                    <li><a href="index.html#faq">FAQ</a></li>
+                    <li><a href="account.html">Log in</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2026 Founding Dev. Built for owners.</span>
+            <a href="#top">Back to top &uarr;</a>
+        </div>
+    </footer>
+
+    <script src="js/site.js"></script>
+    <script type="module" src="js/auth-nav.js"></script>
+    <script type="module" src="js/account.js"></script>
+</body>
+</html>

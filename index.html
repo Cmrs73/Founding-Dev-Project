@@ -1,0 +1,521 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Founding Dev | Replace expensive SaaS with software you own</title>
+    <meta name="description" content="Replace expensive, bloated SaaS with software you own. Start with a ready-made app you customize with AI, or build custom software with our engineers. One price, no per-seat fees.">
+    <meta name="theme-color" content="#050507">
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="Founding Dev">
+    <meta property="og:title" content="Replace expensive SaaS. Own it.">
+    <meta property="og:description" content="Ready-made apps you customize with AI, or custom software built with our engineers. One price, no per-seat fees.">
+    <meta name="twitter:card" content="summary">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style .css">
+    <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page-glow" aria-hidden="true"></div>
+
+    <header class="site-header" id="top">
+        <div class="header-inner">
+            <a class="logo" href="index.html" aria-label="Founding Dev home">
+                <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="logo-g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c9a6ff"/><stop offset="1" stop-color="#6600c5"/></linearGradient></defs><rect width="32" height="32" rx="9" fill="url(#logo-g)"/><path d="M10 8.5h12.5V12H14v3.2h7.5v3.5H14v4.8h-4z" fill="#fff"/></svg>
+                <span class="logo-text">Founding<b>Dev</b></span>
+            </a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+            <nav id="site-nav" aria-label="Main">
+                <a href="#how">How it works</a>
+                <a href="#apps">Apps</a>
+                <a href="case-studies.html">Case studies</a>
+                <a href="saas-alternatives.html">Alternatives</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="#faq">FAQ</a>
+                <div class="nav-actions">
+                    <a class="nav-login" href="account.html" data-auth="login">Log in</a>
+                    <a class="btn btn-primary" href="account.html?mode=signup" data-auth="primary">Start replacing</a>
+                </div>
+            </nav>
+            <div class="header-actions">
+                <a class="header-login" href="account.html" data-auth="login">Log in</a>
+                <a class="btn btn-small btn-primary" href="account.html?mode=signup" data-auth="primary">Start replacing</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="hero">
+            <div class="hero-copy">
+                <div class="tag-box"><div class="tag">Software you own</div></div>
+                <h1>Replace expensive SaaS. <span class="accent">Own it.</span></h1>
+                <p class="description">Founding Dev puts you back in control of the software your business runs on. Start with a ready-made app you customize with AI, or build custom software with our engineers. You own it, and one price covers everyone.</p>
+                <div class="buttons">
+                    <a href="account.html?mode=signup" class="btn btn-primary">Start replacing <span aria-hidden="true">&rarr;</span></a>
+                    <a href="contact.html" class="btn btn-ghost">Book a call</a>
+                </div>
+                <ul class="hero-trust">
+                    <li>No per-seat fees</li>
+                    <li>You own the code and data</li>
+                    <li>Engineers on hand</li>
+                </ul>
+            </div>
+
+            <!--
+                Paste your Spline export URL into data-spline-url, for example:
+                data-spline-url="https://prod.spline.design/XXXX/scene.splinecode"
+                Until then, or if the scene fails to load, the canvas animation is shown.
+            -->
+            <div class="hero-visual" id="hero-visual" data-spline-url="" aria-hidden="true">
+                <img class="visual-grid" src="3d/gradient.png" alt="">
+                <div class="visual-glow"></div>
+                <canvas id="hero-canvas"></canvas>
+            </div>
+        </section>
+
+        <section class="marquee-section" aria-label="Tools our customers replace">
+            <p class="marquee-label">Replace expensive SaaS like</p>
+            <div class="marquee">
+                <div class="marquee-track">
+                    <ul>
+                        <li>QuickBooks</li><li>Zendesk</li><li>Slack</li><li>Calendly</li><li>DocuSign</li><li>Pipedrive</li><li>Airtable</li><li>ServiceTitan</li><li>Help Scout</li><li>Dialpad</li><li>JazzHR</li><li>Vonage</li><li>HubSpot</li>
+                    </ul>
+                    <ul aria-hidden="true">
+                        <li>QuickBooks</li><li>Zendesk</li><li>Slack</li><li>Calendly</li><li>DocuSign</li><li>Pipedrive</li><li>Airtable</li><li>ServiceTitan</li><li>Help Scout</li><li>Dialpad</li><li>JazzHR</li><li>Vonage</li><li>HubSpot</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="how">
+            <div class="section-head reveal">
+                <p class="eyebrow">How it works</p>
+                <h2>Where do you want to start?</h2>
+                <p class="section-sub">Pick one. See how it works.</p>
+            </div>
+
+            <div class="tabs reveal" role="tablist" aria-label="Ways to start">
+                <button class="tab" type="button" role="tab" id="tab-replace" aria-controls="panel-replace" aria-selected="true">Replace expensive SaaS</button>
+                <button class="tab" type="button" role="tab" id="tab-build" aria-controls="panel-build" aria-selected="false" tabindex="-1">Build custom software</button>
+            </div>
+
+            <div class="tab-panel path-detail" id="panel-replace" role="tabpanel" aria-labelledby="tab-replace">
+                <div>
+                    <h3>Three steps to cut your software bill.</h3>
+                    <p class="path-lead muted">Cut your software spend with ready-made apps, customized for your business. Start with an app, change what you need, then launch.</p>
+                    <p class="path-note">One price, no per-seat fees.</p>
+                    <a href="account.html?mode=signup" class="btn btn-primary">Start replacing <span aria-hidden="true">&rarr;</span></a>
+                </div>
+                <ol class="step-cards">
+                    <li><strong>Pick an app</strong><span>Find a ready-made app that's close to the one you want to replace.</span></li>
+                    <li><strong>Customize with AI</strong><span>Add or remove features just by typing what you need. If it already fits, skip this step.</span></li>
+                    <li><strong>Launch</strong><span>Start using your app in a few clicks, with your whole team on one price.</span></li>
+                </ol>
+            </div>
+
+            <div class="tab-panel path-detail" id="panel-build" role="tabpanel" aria-labelledby="tab-build" hidden>
+                <div>
+                    <h3>Three steps to software built your way.</h3>
+                    <p class="path-lead muted">Bring your app idea to life without dev shop hassle. Tell us what you need, we set the foundation, and you build with AI alongside expert engineers.</p>
+                    <p class="path-note">One flat fee. Costs less than hiring a dev shop.</p>
+                    <a href="contact.html" class="btn btn-primary">Book a call <span aria-hidden="true">&rarr;</span></a>
+                </div>
+                <ol class="step-cards">
+                    <li><strong>Get on a call</strong><span>Tell us what you want to build. We agree on scope and pricing, then start.</span></li>
+                    <li><strong>Get your foundation</strong><span>Our engineers build the foundation right. Then you take over with AI.</span></li>
+                    <li><strong>Engineers stay with you</strong><span>You get engineering hours all through your build, and after you launch.</span></li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="section" id="apps">
+            <div class="section-head-row reveal">
+                <div class="section-head">
+                    <p class="eyebrow">Apps</p>
+                    <h2>Start with an app that already works.</h2>
+                    <p class="section-sub">Pick a ready-made app that's close to what you need, then customize it with AI.</p>
+                </div>
+                <div class="carousel-controls" data-carousel-controls="app-carousel">
+                    <button class="icon-btn" type="button" data-dir="prev" aria-label="Previous apps">&larr;</button>
+                    <button class="icon-btn" type="button" data-dir="next" aria-label="Next apps">&rarr;</button>
+                </div>
+            </div>
+
+            <ul class="carousel reveal" id="app-carousel" data-carousel aria-label="Ready-made apps">
+                <li>
+                    <a class="app-card" href="account.html?mode=signup">
+                        <div class="app-preview" aria-hidden="true">
+                            <div class="mock">
+                                <div class="mock-bar"><i></i><i></i><i></i></div>
+                                <div class="mock-line w60"></div>
+                                <div class="mock-line w80"></div>
+                                <div class="mock-sign"><svg viewBox="0 0 120 40"><path d="M5 30c10-25 18-25 20-5s8 10 14-6 10-12 12 2 10 8 16-4 12-6 18 4 14 6 30-8" fill="none" stroke="#c9a6ff" stroke-width="2.5" stroke-linecap="round"/></svg></div>
+                                <div class="mock-btn"></div>
+                            </div>
+                        </div>
+                        <div class="app-body">
+                            <span class="app-category">Documents &amp; signing</span>
+                            <h3>GoSign</h3>
+                            <p>Sign and send unlimited documents. Replaces DocuSign, HelloSign, PandaDoc, Adobe Sign, SignNow and Zoho Sign.</p>
+                            <span class="app-link">Use this app <span aria-hidden="true">&rarr;</span></span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="app-card" href="account.html?mode=signup">
+                        <div class="app-preview" aria-hidden="true">
+                            <div class="mock">
+                                <div class="mock-bar"><i></i><i></i><i></i></div>
+                                <div class="mock-line w45"></div>
+                                <div class="mock-cal"><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i><i class="on"></i><i></i><i></i><i></i><i></i><i></i><i></i><i class="on"></i><i></i><i></i></div>
+                            </div>
+                        </div>
+                        <div class="app-body">
+                            <span class="app-category">Scheduling &amp; booking</span>
+                            <h3>Kalendar</h3>
+                            <p>Booking pages for the whole team. Replaces Calendly, Cal.com, Acuity Scheduling, Setmore, Zoho Bookings and Microsoft Bookings.</p>
+                            <span class="app-link">Use this app <span aria-hidden="true">&rarr;</span></span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="app-card" href="account.html?mode=signup">
+                        <div class="app-preview" aria-hidden="true">
+                            <div class="mock">
+                                <div class="mock-bar"><i></i><i></i><i></i></div>
+                                <div class="mock-board">
+                                    <div><i class="on"></i><i></i><i></i></div>
+                                    <div><i></i><i class="on"></i></div>
+                                    <div><i></i><i></i><i></i><i class="on"></i></div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="app-body">
+                            <span class="app-category">CRM</span>
+                            <h3>Customer CRM</h3>
+                            <p>Your pipeline, your way. Replaces HubSpot, Pipedrive, Salesforce, Zoho CRM and Freshsales.</p>
+                            <span class="app-link">Use this app <span aria-hidden="true">&rarr;</span></span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <a class="app-card" href="account.html?mode=signup">
+                        <div class="app-preview" aria-hidden="true">
+                            <div class="mock">
+                                <div class="mock-bar"><i></i><i></i><i></i></div>
+                                <div class="mock-line w30"></div>
+                                <div class="mock-field"></div>
+                                <div class="mock-line w45"></div>
+                                <div class="mock-field"></div>
+                                <div class="mock-btn"></div>
+                            </div>
+                        </div>
+                        <div class="app-body">
+                            <span class="app-category">Forms &amp; surveys</span>
+                            <h3>OnForm</h3>
+                            <p>Build and share forms without per-response caps. Replaces Typeform, Jotform, Google Forms, SurveyMonkey, Tally and Microsoft Forms.</p>
+                            <span class="app-link">Use this app <span aria-hidden="true">&rarr;</span></span>
+                        </div>
+                    </a>
+                </li>
+                <li>
+                    <div class="app-card">
+                        <div class="app-preview" aria-hidden="true">
+                            <div class="mock">
+                                <div class="mock-bar"><i></i><i></i><i></i></div>
+                                <div class="mock-row"><b></b><div class="mock-line"></div></div>
+                                <div class="mock-row"><b></b><div class="mock-line w60"></div></div>
+                                <div class="mock-row"><b></b><div class="mock-line w80"></div></div>
+                                <div class="mock-row"><b></b><div class="mock-line w45"></div></div>
+                            </div>
+                        </div>
+                        <div class="app-body">
+                            <span class="app-category">HR</span>
+                            <h3>HRHR <span class="badge">Coming soon</span></h3>
+                            <p>An HR app your business owns, with no fee per employee. Replaces BambooHR.</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
+            <div class="section-actions">
+                <a href="saas-alternatives.html" class="btn btn-ghost">See all alternatives</a>
+            </div>
+        </section>
+
+        <section class="section" id="compare">
+            <div class="section-head reveal">
+                <p class="eyebrow">Compare</p>
+                <h2>Rent software, or own what you run.</h2>
+                <p class="section-sub">Pick a route. See it side by side.</p>
+            </div>
+
+            <div class="tabs reveal" role="tablist" aria-label="Comparisons">
+                <button class="tab" type="button" role="tab" id="tab-vs-saas" aria-controls="panel-vs-saas" aria-selected="true">Versus SaaS</button>
+                <button class="tab" type="button" role="tab" id="tab-vs-shop" aria-controls="panel-vs-shop" aria-selected="false" tabindex="-1">Versus a dev shop</button>
+            </div>
+
+            <div class="tab-panel" id="panel-vs-saas" role="tabpanel" aria-labelledby="tab-vs-saas">
+                <table class="compare">
+                    <thead>
+                        <tr><th scope="col"><span class="visually-hidden">Topic</span></th><th scope="col">SaaS</th><th scope="col" class="is-us">Founding Dev</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><th scope="row">Price</th><td data-label="SaaS"><span class="mark mark-no">Per seat, per month, forever</span></td><td data-label="Founding Dev" class="is-us"><span class="mark mark-yes">One price, no per-seat fees</span></td></tr>
+                        <tr><th scope="row">Ownership</th><td data-label="SaaS"><span class="mark mark-no">Access while you keep paying</span></td><td data-label="Founding Dev" class="is-us"><span class="mark mark-yes">You own your software</span></td></tr>
+                        <tr><th scope="row">Customization</th><td data-label="SaaS"><span class="mark mark-no">Only what the product allows</span></td><td data-label="Founding Dev" class="is-us"><span class="mark mark-yes">Change anything with AI</span></td></tr>
+                        <tr><th scope="row">What changes next</th><td data-label="SaaS"><span class="mark mark-no">They decide</span></td><td data-label="Founding Dev" class="is-us"><span class="mark mark-yes">You decide</span></td></tr>
+                    </tbody>
+                </table>
+                <div class="section-actions">
+                    <a href="account.html?mode=signup" class="btn btn-primary">Start replacing <span aria-hidden="true">&rarr;</span></a>
+                </div>
+            </div>
+
+            <div class="tab-panel" id="panel-vs-shop" role="tabpanel" aria-labelledby="tab-vs-shop" hidden>
+                <table class="compare">
+                    <thead>
+                        <tr><th scope="col"><span class="visually-hidden">Topic</span></th><th scope="col">Dev shop</th><th scope="col" class="is-us">Founding Dev</th></tr>
+                    </thead>
+                    <tbody>
+                        <tr><th scope="row">Price</th><td data-label="Dev shop"><span class="mark mark-no">Quoted per project, or by the hour</span></td><td data-label="Founding Dev" class="is-us"><span class="mark mark-yes">One flat fee, agreed before we start</span></td></tr>
+                        <tr><th scope="row">Getting started</th><td data-label="Dev shop"><span class="mark mark-no">Hand it off and wait</span></td><td data-label="Founding Dev" class="is-us"><span class="mark mark-yes">Tell us what you need, then build with us</span></td></tr>
+                        <tr><th scope="row">Making changes</th><td data-label="Dev shop"><span class="mark mark-no">Every change is a new job</span></td><td data-label="Founding Dev" class="is-us"><span class="mark mark-yes">Make changes yourself with AI</span></td></tr>
+                        <tr><th scope="row">After launch</th><td data-label="Dev shop"><span class="mark mark-no">Support is a separate quote, if offered</span></td><td data-label="Founding Dev" class="is-us"><span class="mark mark-yes">Support engineering hours included</span></td></tr>
+                    </tbody>
+                </table>
+                <div class="section-actions">
+                    <a href="contact.html" class="btn btn-primary">Book a call <span aria-hidden="true">&rarr;</span></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="section" id="customers">
+            <div class="section-head reveal">
+                <p class="eyebrow">Customers</p>
+                <h2>Real businesses. Real results.</h2>
+                <p class="section-sub">One replaced their subscriptions. One built an app from scratch.</p>
+            </div>
+
+            <div class="results reveal">
+                <button class="video-facade" type="button" data-video-id="TNZJpI_dJMg" data-video-title="Bailey, founder of NestGenie, on building with Founding Dev">
+                    <img src="https://i.ytimg.com/vi/TNZJpI_dJMg/hqdefault.jpg" alt="" loading="lazy" width="480" height="360">
+                    <span class="play" aria-hidden="true"></span>
+                    <span class="video-caption">
+                        <strong>Bailey, founder of NestGenie</strong>
+                        <span>Watch the story</span>
+                    </span>
+                    <span class="visually-hidden">Play video: Bailey, founder of NestGenie</span>
+                </button>
+                <div class="stat-stack">
+                    <div class="stat">
+                        <p class="stat-value">Up to 70%</p>
+                        <p>saved on software costs after replacing subscriptions.</p>
+                    </div>
+                    <div class="stat">
+                        <p class="stat-value">150+ people</p>
+                        <p>use one customer's replacement app. No charge per person.</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section-actions">
+                <a href="case-studies.html" class="btn btn-ghost">Read the case studies</a>
+            </div>
+        </section>
+
+        <section class="section section-center" aria-labelledby="built-with">
+            <div class="section-head reveal">
+                <p class="eyebrow">Trusted by owners</p>
+                <h2 id="built-with">Their software is built with Founding Dev.</h2>
+            </div>
+            <ul class="name-grid reveal">
+                <li>Really Great Reading</li>
+                <li>Ty-Leigh Capital</li>
+                <li>Innovations ED</li>
+                <li>NestGenie</li>
+                <li>Shuk Rentals</li>
+                <li>Show Mindy</li>
+            </ul>
+        </section>
+
+        <section class="section" id="security">
+            <div class="section-head reveal">
+                <p class="eyebrow">Security</p>
+                <h2>Built to enterprise standards, from day one.</h2>
+                <p class="section-sub">Owning your software shouldn't mean owning the risk. Every app ships with the basics done properly.</p>
+            </div>
+            <div class="trust-grid reveal">
+                <article class="trust-item">
+                    <div class="trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="10" width="16" height="11" rx="2"/><path d="M8 10V7a4 4 0 0 1 8 0v3"/></svg></div>
+                    <h3>Bank-level encryption</h3>
+                    <p>Your data is protected with the same standard of encryption banks use.</p>
+                </article>
+                <article class="trust-item">
+                    <div class="trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 7c0-1.7 3.6-3 8-3s8 1.3 8 3-3.6 3-8 3-8-1.3-8-3z"/><path d="M4 7v10c0 1.7 3.6 3 8 3s8-1.3 8-3V7"/><path d="M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg></div>
+                    <h3>Daily backups</h3>
+                    <p>Your records are backed up every day, so nothing is lost.</p>
+                </article>
+                <article class="trust-item">
+                    <div class="trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 6h12M8 12h12M8 18h12"/><path d="M4 6h.01M4 12h.01M4 18h.01"/></svg></div>
+                    <h3>Full audit trails</h3>
+                    <p>See who changed what, and when.</p>
+                </article>
+                <article class="trust-item">
+                    <div class="trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l8 3v6c0 4.5-3.4 8.3-8 9-4.6-.7-8-4.5-8-9V6z"/><path d="M9 12l2 2 4-4"/></svg></div>
+                    <h3>SOC 2 and HIPAA support</h3>
+                    <p>We support compliance where your business needs it.</p>
+                </article>
+                <article class="trust-item">
+                    <div class="trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M17 11l1.5 1.5L22 9"/></svg></div>
+                    <h3>Single sign-on</h3>
+                    <p>One secure login for your whole team.</p>
+                </article>
+                <article class="trust-item">
+                    <div class="trust-icon" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M5.6 5.6l12.8 12.8"/></svg></div>
+                    <h3>Never used to train AI</h3>
+                    <p>Your data stays yours. It is never used to train AI models.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="section" id="pricing">
+            <div class="section-head-row reveal">
+                <div class="section-head">
+                    <p class="eyebrow">Pricing</p>
+                    <h2>One price for your whole team. Not per seat.</h2>
+                    <p class="section-sub">Start free. Upgrade when you're ready to put your apps online and replace the tools you rent.</p>
+                </div>
+                <a href="pricing.html" class="btn btn-ghost">Compare plans</a>
+            </div>
+            <div class="plan-summary reveal">
+                <a href="pricing.html#plans">
+                    <h3>Free</h3>
+                    <p class="plan-price">$0</p>
+                    <p>Try it on real work before you pay.</p>
+                </a>
+                <a href="pricing.html#plans">
+                    <h3>Unlock</h3>
+                    <p class="plan-price">$19<span>/month</span></p>
+                    <p>Replace your first tool and put it online.</p>
+                </a>
+                <a href="pricing.html#plans">
+                    <h3>Unleash <span class="plan-tag">Popular</span></h3>
+                    <p class="plan-price">$59<span>/month</span></p>
+                    <p>Run more of your business on software you own.</p>
+                </a>
+                <a href="pricing.html#plans">
+                    <h3>Business</h3>
+                    <p class="plan-price">Custom</p>
+                    <p>We build it with you.</p>
+                </a>
+            </div>
+        </section>
+
+        <section class="section" id="faq">
+            <div class="faq-layout">
+                <div class="section-head reveal">
+                    <p class="eyebrow">FAQ</p>
+                    <h2>Questions we always get.</h2>
+                    <p class="section-sub">Can't find your answer? <a class="text-link" href="contact.html">Ask us directly.</a></p>
+                </div>
+                <div class="faq-list reveal">
+                    <details>
+                        <summary>Do I really own it?</summary>
+                        <p>Yes. You own the code, the data, and the infrastructure. Nothing shuts off if you stop paying us. On a paid plan, you can download your code at any time and use your own domain.</p>
+                    </details>
+                    <details>
+                        <summary>Who maintains it, and what if it breaks?</summary>
+                        <p>We do. We run the servers, handle scaling, keep everything updated, and fix things if they break.</p>
+                    </details>
+                    <details>
+                        <summary>Is it secure and compliant?</summary>
+                        <p>Yes. Your software comes with bank-level encryption, daily backups, and full audit trails. We support SOC 2 and HIPAA where your business needs them.</p>
+                    </details>
+                    <details>
+                        <summary>Isn't custom or AI-built software risky?</summary>
+                        <p>Apps start from the work of experienced engineers. You can make changes in the editor with expert support, or have our engineers make them. Your data is never used to train AI.</p>
+                    </details>
+                    <details>
+                        <summary>How does moving my data over work?</summary>
+                        <p>We handle the full migration from your old tools, with no data loss. Your records, customers and history all come over.</p>
+                    </details>
+                    <details>
+                        <summary>What does it cost?</summary>
+                        <p>Ready-made apps start on a flat monthly plan. Custom builds have a one-time build fee, then an optional flat maintenance fee. There are no per-seat charges. Most teams pay up to 70% less than their old SaaS. <a class="text-link" href="pricing.html">See pricing.</a></p>
+                    </details>
+                    <details>
+                        <summary>What kind of support do you offer?</summary>
+                        <p>Every plan includes dedicated support. Migrations and customizations are handled by our team, or by AI agents around the clock.</p>
+                    </details>
+                    <details>
+                        <summary>Can I cancel anytime?</summary>
+                        <p>Yes. No long-term contracts. Cancel anytime and export all your code and data.</p>
+                    </details>
+                </div>
+            </div>
+        </section>
+
+        <section class="cta" id="start">
+            <h2>Software that's actually yours.</h2>
+            <p>Start with a ready-made app and customize it with AI. Or tell us your idea and build with our engineers.</p>
+            <div class="buttons buttons-center">
+                <a href="account.html?mode=signup" class="btn btn-primary">Start replacing <span aria-hidden="true">&rarr;</span></a>
+                <a href="contact.html" class="btn btn-ghost">Book a call</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <a class="logo" href="index.html" aria-label="Founding Dev home">
+                    <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="logo-g-foot" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c9a6ff"/><stop offset="1" stop-color="#6600c5"/></linearGradient></defs><rect width="32" height="32" rx="9" fill="url(#logo-g-foot)"/><path d="M10 8.5h12.5V12H14v3.2h7.5v3.5H14v4.8h-4z" fill="#fff"/></svg>
+                    <span class="logo-text">Founding<b>Dev</b></span>
+                </a>
+                <p>Replace rented SaaS with software you own. Built with enterprise standards and clear ownership.</p>
+            </div>
+            <div class="footer-col">
+                <h2>Product</h2>
+                <ul>
+                    <li><a href="index.html#how">How it works</a></li>
+                    <li><a href="index.html#apps">Apps</a></li>
+                    <li><a href="saas-alternatives.html">SaaS alternatives</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="index.html#security">Security</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h2>Customers</h2>
+                <ul>
+                    <li><a href="case-studies.html">Case studies</a></li>
+                    <li><a href="case-studies.html#florida-public-adjuster">Florida Public Adjuster</a></li>
+                    <li><a href="case-studies.html#shuk-rentals">Shuk Rentals</a></li>
+                    <li><a href="case-studies.html#innovations-ed">Innovations ED</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h2>Company</h2>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Book a call</a></li>
+                    <li><a href="index.html#faq">FAQ</a></li>
+                    <li><a href="account.html">Log in</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2026 Founding Dev. Built for owners.</span>
+            <a href="#top">Back to top &uarr;</a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="js/site.js"></script>
+    <script type="module" src="js/auth-nav.js"></script>
+</body>
+</html>

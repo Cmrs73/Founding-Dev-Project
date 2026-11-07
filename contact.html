@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Founding Dev</title>
+    <meta name="description" content="Book a call with Founding Dev to replace your SaaS subscriptions or build custom software you own.">
+    <meta name="theme-color" content="#050507">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@300;400;500;600;700&family=Geist+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style .css">
+    <script>document.documentElement.classList.add('js');</script>
+</head>
+<body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <div class="page-glow" aria-hidden="true"></div>
+
+    <header class="site-header" id="top">
+        <div class="header-inner">
+            <a class="logo" href="index.html" aria-label="Founding Dev home">
+                <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="logo-g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c9a6ff"/><stop offset="1" stop-color="#6600c5"/></linearGradient></defs><rect width="32" height="32" rx="9" fill="url(#logo-g)"/><path d="M10 8.5h12.5V12H14v3.2h7.5v3.5H14v4.8h-4z" fill="#fff"/></svg>
+                <span class="logo-text">Founding<b>Dev</b></span>
+            </a>
+            <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav">Menu</button>
+            <nav id="site-nav" aria-label="Main">
+                <a href="index.html#how">How it works</a>
+                <a href="index.html#apps">Apps</a>
+                <a href="case-studies.html">Case studies</a>
+                <a href="saas-alternatives.html">Alternatives</a>
+                <a href="pricing.html">Pricing</a>
+                <a href="index.html#faq">FAQ</a>
+                <div class="nav-actions">
+                    <a class="nav-login" href="account.html" data-auth="login">Log in</a>
+                    <a class="btn btn-primary" href="account.html?mode=signup" data-auth="primary">Start replacing</a>
+                </div>
+            </nav>
+            <div class="header-actions">
+                <a class="header-login" href="account.html" data-auth="login">Log in</a>
+                <a class="btn btn-small btn-primary" href="account.html?mode=signup" data-auth="primary">Start replacing</a>
+            </div>
+        </div>
+    </header>
+
+    <main id="main">
+        <section class="page-intro">
+            <p class="eyebrow">Contact</p>
+            <h1>Tell us what you want to replace or build.</h1>
+        </section>
+
+        <section class="form-layout">
+            <div class="form-aside">
+                <h2>Book a call</h2>
+                <p>Tell us which tools you pay for today, or what you want to build. We'll reply by email to set up a call.</p>
+                <h2 class="subhead">What happens next</h2>
+                <ul class="check-list">
+                    <li>We reply by email to set up a call</li>
+                    <li>In 30 minutes, we map your SaaS spend or your idea</li>
+                    <li>You get a clear scope and one flat price before anything starts</li>
+                </ul>
+            </div>
+
+            <form class="panel" id="contact-form" novalidate>
+                <p class="notice" id="config-notice" hidden>This form is not connected yet. Add your Firebase project settings to js/firebase-config.js.</p>
+                <label class="field">
+                    <span>Name</span>
+                    <input type="text" name="name" autocomplete="name" maxlength="100" required>
+                </label>
+                <label class="field">
+                    <span>Email</span>
+                    <input type="email" name="email" autocomplete="email" maxlength="254" required>
+                </label>
+                <label class="field">
+                    <span>Company (optional)</span>
+                    <input type="text" name="company" autocomplete="organization" maxlength="100">
+                </label>
+                <label class="field">
+                    <span>What do you want to replace or build?</span>
+                    <textarea name="message" maxlength="5000" required></textarea>
+                </label>
+                <label class="field-trap" aria-hidden="true">
+                    Leave this empty
+                    <input type="text" name="website" tabindex="-1" autocomplete="off">
+                </label>
+                <div class="form-actions">
+                    <button class="btn btn-primary" type="submit">Send message</button>
+                </div>
+                <p class="form-status" id="form-status" role="status" hidden></p>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-top">
+            <div class="footer-brand">
+                <a class="logo" href="index.html" aria-label="Founding Dev home">
+                    <svg class="logo-mark" viewBox="0 0 32 32" aria-hidden="true"><defs><linearGradient id="logo-g-foot" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#c9a6ff"/><stop offset="1" stop-color="#6600c5"/></linearGradient></defs><rect width="32" height="32" rx="9" fill="url(#logo-g-foot)"/><path d="M10 8.5h12.5V12H14v3.2h7.5v3.5H14v4.8h-4z" fill="#fff"/></svg>
+                    <span class="logo-text">Founding<b>Dev</b></span>
+                </a>
+                <p>Replace rented SaaS with software you own. Built with enterprise standards and clear ownership.</p>
+            </div>
+            <div class="footer-col">
+                <h2>Product</h2>
+                <ul>
+                    <li><a href="index.html#how">How it works</a></li>
+                    <li><a href="index.html#apps">Apps</a></li>
+                    <li><a href="saas-alternatives.html">SaaS alternatives</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li><a href="index.html#security">Security</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h2>Customers</h2>
+                <ul>
+                    <li><a href="case-studies.html">Case studies</a></li>
+                    <li><a href="case-studies.html#florida-public-adjuster">Florida Public Adjuster</a></li>
+                    <li><a href="case-studies.html#shuk-rentals">Shuk Rentals</a></li>
+                    <li><a href="case-studies.html#innovations-ed">Innovations ED</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h2>Company</h2>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Book a call</a></li>
+                    <li><a href="index.html#faq">FAQ</a></li>
+                    <li><a href="account.html">Log in</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <span>&copy; 2026 Founding Dev. Built for owners.</span>
+            <a href="#top">Back to top &uarr;</a>
+        </div>
+    </footer>
+
+    <script src="js/site.js"></script>
+    <script type="module" src="js/auth-nav.js"></script>
+    <script type="module" src="js/contact.js"></script>
+</body>
+</html>
